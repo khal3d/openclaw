@@ -6,7 +6,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Install OpenClaw (Formerly ClawdBot/MoltBot) globally
-RUN npm install -g openclaw@latest
+RUN npm install -g openclaw@2026.2.12
 
 WORKDIR /root
 
